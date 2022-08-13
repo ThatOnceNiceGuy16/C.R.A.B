@@ -1,0 +1,31 @@
+T=int(0)
+while True:
+    T=int(input("Number of test cases: "))
+    if T <= 1000 and T >= 1:
+      break
+    else:
+      print("Please enter a value between and including 1 and 1000")
+I=int(0)
+AH=int(0)
+BH=int(0)
+while I < T :
+  while True: 
+    AH=int(input("Alice's height: "))
+    if AH >= 100 and AH <= 200:
+      break
+    else:
+      print("Please enter a value between and including 100 and 200")
+  while True:
+    BH=int(input("Bob's height: "))
+    if BH >= 100 and BH <= 200:
+      break
+    else:
+      print("Please enter a value between and including 100 and 200")
+  if AH != BH :
+    if AH > BH :
+      print("Alice is taller")
+    else :
+        print("Bob is taller")
+    I=I+1
+  else :
+    print("they must have different heights") 
