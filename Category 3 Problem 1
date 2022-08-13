@@ -1,0 +1,18 @@
+i=0
+X=0
+T=int(0)
+while True:
+    T=int(input("Number of test cases: "))
+    if T <= 1000 and T >= 1:
+      break
+    else:
+      print("Please enter a value between and including 1 and 1000")
+while i<T:
+  while True:
+    X=int(input("Amount of money to be analysed: "))
+    if X <= 1000 and X >= 1:
+      break
+    else:
+      print("Please enter a value between and including 1 and 1000")
+  print("minimum number of coins needed: ", X%10)
+  i = i + 1
