@@ -1,0 +1,195 @@
+The quiz contains all the questions related to the theme that is climate change and its effects on the world. The quiz consists of 12 multiple choice questions that readers have no prior knowledge about. 
+
+
+#Introduction
+print ("-"*20)
+print("Hello,There, Random Human")
+print("Let's play a game")
+print("No no that type of game, a quiz game about climate change, ")
+input("Hit Enter to play this 'not so sus game' >>> ")
+#chances
+chances = 1
+print("You have,", chances ,"chance to finish it correctly.")
+score = 0
+input("Hit enter to begin the game! >>")
+print ("")
+print ("")
+
+question_1 = print("1) If rates of habitat loss and fragmentation due to human development and global warming continue and  deaths from poaching continue, how long will it take to lose Africa's elephants?\n")
+print ("(A) 40 years")
+print ("(B)45 years")
+print ("(C) 50 years")
+print ("(D) 60 years")
+answer_1 = "A"
+
+for i in range(chances):
+   answer = input("Answer: ")
+if ( answer == answer_1 ):
+    print("YES! You got it right! ")
+
+    score = score +1
+  
+else:
+     print("NOPE!\n")
+     print("The real answer is", answer_1, "\n\n")
+
+print("") 
+question_2 = print("2) Why would conflicts between humans and animals arise?\n")
+
+print ("(A)Increasing crowded spaces")
+print ("(B)Increase in heat")
+print ("(C) Increase in oxygen")
+print ("(D) decrease in oxygen")
+answer_2 = "A"
+
+for i in range(chances):
+   answer = input("Answer: ")
+if ( answer == answer_1 ):
+    print("YES! You got it right! Rising temperatures affect vegetation, water and much more.  ")
+
+    score = score +1
+  
+else:
+     print("NOPE!\n")
+     print("The real answer is", answer_1, "\n\n")
+
+print("") 
+
+question_3 = print("3) When did Australia's Black Summer bushfires occur? \n")
+     
+print("(A) 2010")
+print("(B) 2014")
+print("(C) 2016")
+print("(D) 2015")
+answer_3 = "D"
+
+for i in range(chances):
+   answer = input("Answer: ")
+if ( answer == answer_3):
+  print("Yep!")
+
+  score = score +1
+else:
+  print("NOPE!")
+
+question_4 = print("4)How many square kilomete were burnt as a result of the bushfires? (Yes some of these question are connected\n")
+     
+print("(A)  190,000 km")
+print("(B) 200,000 km")
+print("(C) 186,000 km")
+print("(D) 210,000 km")
+answer_4 = "C"
+
+for i in range(chances):
+   answer = input("Answer: ")
+if ( answer == answer_4):
+  print("Yep!")
+
+  score = score +1
+else:
+  print("NOPE!")
+  
+question_5 = print("5)How do elephants make up an important role in making a healthy ecosystem?\n")
+     
+print("(A) they don’t")
+print("(B) Dispersing carbon dioxide")
+print("(C) Dispersing seeds and fertilize soils")
+print("(D) Eating plants")
+answer_5 = "C"
+
+for i in range(chances):
+   answer = input("Answer: ")
+if ( answer == answer_5):
+  print("Yep!")
+
+  score = score +1
+else:
+  print("NOPE!")
+
+question_6 = print("6)Which country emits the most greenhouse gases?\n")
+     
+print("(A)  US")
+print("(B) India")
+print("(C) China")
+print("(D)Canada")
+answer_6 = "C"
+
+for i in range(chances):
+   answer = input("Answer: ")
+if ( answer == answer_6):
+  print("Yep!")
+
+  score = score +1
+else:
+  print("NOPE!")
+
+  
+question_7 = print("7)When was the Paris Climate Accord ratified?\n")
+     
+print("(A)2010")
+print("(B)2015")
+print("(C)2017")
+print("(D)2012")
+answer_7 = "B"
+
+for i in range(chances):
+   answer = input("Answer: ")
+if ( answer == answer_7):
+  print("Yep!")
+
+  score = score +1
+else:
+  print("NOPE!")
+
+question_8 = print("8)What can be used to mitigate increasing temperatures?\n")
+     
+print("(A)fusion")
+print("(B)catalyst")
+print("(C)isotope")
+print("(D)GMO")
+answer_8 = "D"
+
+for i in range(chances):
+   answer = input("Answer: ")
+if ( answer == answer_8):
+  print("Yep!")
+
+  score = score +1
+else:
+  print("NOPE!")
+  
+  
+question_9 = print("9)Which country is most threatened by climate change?\n")
+     
+print("(A)Vietnam")
+print("(B)China")
+print("(C)Japan")
+print("(D)US")
+answer_9 = "C"
+
+for i in range(chances):
+   answer = input("Answer: ")
+if ( answer == answer_8):
+  print("Yep!")
+
+  score = score +1
+else:
+  print("NOPE!")
+
+  
+question_10 = print("10)Why do blue crabs rely on the concentration of CO2 in the water? \n")
+     
+print("(A)To produce oxygen")
+print("(B)to produce sodium nitrate")
+print("(C)to produce sodium hydroxide in their shells")
+print("(D)to deposit calcium carbonate")
+answer_9 = "D"
+
+for i in range(chances):
+   answer = input("Answer: ")
+if ( answer == answer_10):
+  print("Yep!")
+
+  score = score +1
+else:
+  print("NOPE!")
